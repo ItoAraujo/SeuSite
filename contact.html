@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Barber Shop</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet"> <!--Font txt-->
+</head>
+<body>
+    <header>
+        <div id="box">
+            <h1><img src="images-removebg-preview.png" alt="logo of Barber Shop"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</li>
+                    <li><a href="product.html">Produtos</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+            </nav>    
+        </div>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <label for="name">Nome: </label>
+                <input type="text" id="name" class="input-pattern" required>
+
+                <label for="tel">Telefone: </label>
+                <input type="number" id="tel" class="input-pattern" required>
+
+                <label for="message">Por gentiliza, solicite o dia e o horario que deseja ser atendido: </label>
+                <textarea id="message" cols="90" rows="10" class="input-pattern"></textarea>
+            </fieldset>
+            
+
+            <input type="submit" value="save" class="save">
+        </form>
+        
+        <table>
+            <thead>
+                <th>Dia</th>
+                <th>Horas</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>08 ~ 15</td>
+                </tr>
+                <tr>
+                    <td>Terça</td>
+                    <td>08 ~ 15</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>08 ~ 15</td>
+                </tr>
+                <tr>
+                    <td>Quinta</td>
+                    <td>08 ~ 15</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>08 ~ 15</td>
+                </tr>
+                <tr>
+                    <td>Sábado</td>
+                    <td>08 ~ 15</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <img src="imgs/pngtree-barber-pole-logo-ilustration-vector-template-png-image_4641730.png" alt="logo of Barber Shop">
+        <p class="copyright">&copy; Copyright: Iacilton de Araujo. 2024</p> <!--&copy icon of (unicode)-->
+    </footer>
+</body>
+</html>
